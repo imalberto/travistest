@@ -1,4 +1,4 @@
-{
+{ 
     "name": "travistest",
     "description": "My Mojito application",
     "version": "0.0.1",
@@ -13,9 +13,12 @@
           }
     ],
     "dependencies": {
-        "mojito": "0.4.x"
+        "mojito": "0.5.0pr2"
     },
     "engines": {
-        "node": "0.6.x"
+        "node": ">=0.6.x"
+    },
+    "scripts": {
+        "test": "./node_modules/mojito/bin/mojito test app ."
     }
 }

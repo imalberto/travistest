@@ -33,7 +33,7 @@ YUI.add('Hello-tests', function(Y) {
                 },
                 models: {
                     get: function(modelName) {
-                        A.areEqual('HelloModelName', modelName, 'wrong model name');
+                        A.areEqual('HelloModelFoo', modelName, 'wrong model name');
                         return {
                             getData: function(cb) {
                                 cb(null, modelData);
